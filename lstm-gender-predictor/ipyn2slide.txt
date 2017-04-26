@@ -1,0 +1,11 @@
+將ipython notebook變成投影片
+
+
+1.在資料夾下git clone https://github.com/hakimel/reveal.js/
+2.新增python並編輯
+3.view->cell toolbar->slideshow
+4.slide type:
+    *slide:水平排列，利用左右鍵控制
+    *sub-slide:垂直排列於slide之下，利用上下鍵控制
+    *fragment:可安插於slide或sub-slide中，利用左右鍵控制，逐步顯示於slide或sub-slide中
+5.jupyter-nbconvert --to slides xxx.ipynb --reveal-prefix=reveal.js
